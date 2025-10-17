@@ -88,6 +88,7 @@ module.exports = {
 			
 				? 'static/styles/[name].[contenthash].css'
 				: 'static/styles/[name].css',
+				
 		}),
 		new webpack.EnvironmentPlugin({
 			PUBLIC_PATH: null, // значение по умолчанию null, если переменная process.env.PUBLIC_PATH не передана
