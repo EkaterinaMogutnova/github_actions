@@ -85,6 +85,7 @@ module.exports = {
 		new CleanWebpackPlugin(),
 		new MiniCssExtractPlugin({
 			filename: production
+			
 				? 'static/styles/[name].[contenthash].css'
 				: 'static/styles/[name].css',
 		}),
